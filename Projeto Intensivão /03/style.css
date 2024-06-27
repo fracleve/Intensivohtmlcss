@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: "mulish", sans-serif;
+
+}
+
+:root {
+  
+    --title-primary: #B52184;
+    --textsm:#312D64;
+    --colorfundo:#F9F4FB;
+    --colorfundocenter:#343193;
+}
+
+form {
+    background-color: var(--colorfundo);
+}
+
+h1 {
+    /* Entre em contato */
+
+position: absolute;
+width: 357px;
+height: 53px;
+left: 109px;
+top: 95px;
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 900;
+font-size: 42px;
+line-height: 53px;
+/* identical to box height */
+
+color: #B52184;
+
+
+}
+
+.input-wrapper{
+    /* AutocompleteField */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px 12px 14px;
+gap: 12px;
+
+position: absolute;
+width: 592px;
+height: 48px;
+left: 112px;
+top: 178px;
+
+border: 1.5px solid #312D64;
+border-radius: 16px;
+
+
+}
+
+.input-package 
+{
+    /* AutocompleteField */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px 12px 14px;
+gap: 12px;
+
+position: absolute;
+width: 592px;
+height: 48px;
+left: 112px;
+top: 250px;
+
+border: 1.5px solid #312D64;
+border-radius: 16px;
+
+}
+
+.input-mensage{
+    /* TextArea */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 16px 16px;
+gap: 10px;
+
+position: absolute;
+width: 592px;
+height: 126px;
+left: 112px;
+top: 322px;
+
+border: 1.5px solid #312D64;
+border-radius: 16px;
+
+}
+aside{
+    /* image 11976 */
+
+position: absolute;
+width: 844px;
+height: 612px;
+left: 996px;
+top: 100px;
+
+background: url(image.png);
+
+}
+
+.bootom {
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px;
+gap: 10px;
+
+position: absolute;
+width: 151px;
+height: 45px;
+left: 112px;
+top: 472px;
+
+background: linear-gradient(96.21deg, #343193 0%, #302C63 99.68%);
+border-radius: 16px;
+
+}
+
+footer{
+
+    /* Frame 9 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 66px;
+gap: 10px;
+
+position: absolute;
+width: 1600px;
+height: 78px;
+left: 0px;
+top: 800px;
+
+background: var(--colorfundocenter);
+
+}
+
+h2{
+    color: var(--colorfundo);
+}
+
